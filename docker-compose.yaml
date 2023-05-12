@@ -9,7 +9,6 @@ services:
       ports:
         - 80:80
     todo:
-      build:
-        context: .
+      image: nvrbckdown/todo-app:latest
       restart: always
       
